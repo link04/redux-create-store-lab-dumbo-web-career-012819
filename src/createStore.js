@@ -10,7 +10,7 @@ export default function createStore(reducer) {
   const getState = () => {
     return state
   }
-    dispatch(reducer).dispatch({ type: '@@INIT' });
+    dispatch({ type: '@@INIT' });
   return {getState, dispatch}
 }
 
