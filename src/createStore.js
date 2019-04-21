@@ -17,5 +17,4 @@ export default function createStore(reducer) {
 function render() {
   const container = document.getElementById('container');
 }
-createStore().dispatch({type:'@@INIT'});
-createStore().dispatch({type:'@@INIT'});
+
