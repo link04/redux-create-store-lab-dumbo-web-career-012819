@@ -18,3 +18,5 @@ function render() {
   const container = document.getElementById('container');
 }
 
+let store = createStore(changeCount) // createStore takes the changeCount reducer as an argument
+store.dispatch({ type: '@@INIT' });
