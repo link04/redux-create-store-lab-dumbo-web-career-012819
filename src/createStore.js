@@ -3,7 +3,7 @@ export default function createStore(reducer) {
   let state;
 
   const dispatch = (action) => {
-    state = reducer(action, state);
+    state = reducer(state, action);
     render();
   }
 
