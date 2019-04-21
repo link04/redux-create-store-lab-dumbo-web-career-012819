@@ -18,5 +18,4 @@ function render() {
   const container = document.getElementById('container');
 }
 
-let store = createStore(changeCount) 
-store.dispatch({ type: '@@INIT' });
+createStore(changeCount).dispatch({ type: '@@INIT' });
