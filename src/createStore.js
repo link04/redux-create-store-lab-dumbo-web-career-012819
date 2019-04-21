@@ -18,6 +18,6 @@ function render() {
   const container = document.getElementById('container');
 }
 
-createStore(countReducer).dispatch({ type: '@@INIT' });
+createStore(candyReducer).dispatch({ type: '@@INIT' });
 createStore(countReducer).dispatch({ type: '@@INIT' });
 
