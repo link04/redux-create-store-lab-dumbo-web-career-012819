@@ -8,7 +8,7 @@ function countReducer(state = 0, action) {
       return state;
   }
 }
-createStore(candyReducer).dispatch({ type: '@@INIT' });
+
 createStore(countReducer).dispatch({ type: '@@INIT' });
 
 export default countReducer;
