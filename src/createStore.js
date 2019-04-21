@@ -5,7 +5,11 @@ export default function createStore(reducer) {
   const dispatch = (action) => {
     state = reducer(state, action);
     render();
-  }
+  } 
+  
+  
+  state === undefined ? 
+  dispatch({ type: '@@INIT' }) : null
 
   const getState = () => {
     return state
