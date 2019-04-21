@@ -9,6 +9,4 @@ function countReducer(state = 0, action) {
   }
 }
 
-createStore(countReducer).dispatch({ type: '@@INIT' });
-
 export default countReducer;
