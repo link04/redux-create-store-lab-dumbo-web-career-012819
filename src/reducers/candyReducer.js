@@ -6,5 +6,5 @@ function candyReducer(state = [], action) {
       return state;
   }
 }
-createStore(candyReducer).dispatch({ type: '@@INIT' });
+
 export default candyReducer;
