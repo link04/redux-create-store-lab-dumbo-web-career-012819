@@ -19,3 +19,5 @@ function render() {
 }
 
 createStore(countReducer).dispatch({ type: '@@INIT' });
+createStore(countReducer).dispatch({ type: '@@INIT' });
+
