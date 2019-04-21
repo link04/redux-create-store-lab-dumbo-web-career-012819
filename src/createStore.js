@@ -10,7 +10,8 @@ export default function createStore(reducer) {
   const getState = () => {
     return state
   }
-  
+  createStore(countReducer).dispatch({ type: '@@INIT' });
+
   return {getState, dispatch}
 }
 
