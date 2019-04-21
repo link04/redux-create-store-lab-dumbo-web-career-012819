@@ -2,9 +2,6 @@
 export default function createStore(reducer) {
   let state;
   
-  state === undefined ? 
-  dispatch({ type: '@@INIT' }) : null
-  
   const dispatch = (action) => {
     state = reducer(state, action);
     render();
