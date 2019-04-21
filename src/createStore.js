@@ -11,7 +11,6 @@ export default function createStore(reducer) {
     return state
   }
     createStore(reducer).dispatch({ type: '@@INIT' });
-
   return {getState, dispatch}
 }
 
