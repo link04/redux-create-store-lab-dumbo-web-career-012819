@@ -10,7 +10,7 @@ export default function createStore(reducer) {
   const getState = () => {
     return state
   }
-
+  
   return {getState, dispatch}
 }
 
